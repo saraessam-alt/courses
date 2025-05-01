@@ -30,7 +30,7 @@ padding: 0px 50px;
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin:  auto auto 15px 20px;
     position: relative;
     left: 70px;
   }
