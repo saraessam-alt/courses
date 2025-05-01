@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Winky Rough", sans-serif;
+    background-color: #000000;
+    color: #dac1c1;
+  }
+  
+  header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #F88379		
+    ;
+    color: rgb(190, 39, 39);
+
+
+ 
+  }
+
+  h1 {
+padding: 0px 50px;
+  }
+
+  img {
+    position: relative;
+    left: 70px;
+  }
+
+ 
+
+  
+
+  nav ul {
+    list-style: none;
+    justify-content:right;
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.5rem;
+    padding: 10px 180px;
+background-color: #6e3b36;    
+border-radius: 15px;
+  }
+  nav a {
+    color: rgb(204, 98, 98);
+    text-decoration: none;
+    font-size: 22px;
+  }
+  nav a:hover{color: #928e8e;}
+
+nav button {
+    background-color: #350806;
+    color: azure;
+    border: none;
+    padding: 5px 15;
+    font-size: 22px;
+    border-radius: 50px ;
+}
+.section {
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+.text  {
+    padding-right: 50px;
+    font-size: 1.3em;
+    flex: 1;
+    line-height: 1.2;
+    text-align: left;
+
+}
+
+.photo {
+    max-width: 400px;
+    border-radius: 10px;
+    margin-right: 60px;
+    text-align: right;
+}
+
+
+.welcome-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    animation: fadeIn 1.5s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.cta-button {
+    background-color: #6e3b36;
+    color:azure ;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.team-member{
+    
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.member-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 20px;
+    background: #6e3b36;
+    border-radius: 15px;
+}
+
+.member-photo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 40px;
+    font-size: 1.3em;
+}
+
+.login {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.login-saction {
+  display: block;
+  background-color: azure;
+  width: 400px 100%;
+  margin: 100px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #aaa;
+
+}
+
+.login-form input {
+  display: block;
+  width: 400px;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+.login-form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: steelblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+
+  
+  
+  main {
+    padding: 2rem;
+  }
+  
+  footer {
+    background-color: #222;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
