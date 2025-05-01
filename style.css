@@ -25,12 +25,13 @@
   h1 {
 padding: 0px 50px;
   }
-  @media (m)
+
   img {
     max-width: 100%;
     position: relative;
     left: 70px;
   }
+
  
 
   
@@ -61,7 +62,7 @@ nav button {
     border-radius: 50px ;
 }
 .section {
-    flex-wrap: wrap;
+    
     display: flex;
     align-items: center;
     gap: 20px;
@@ -152,7 +153,7 @@ align-items: center;
 .login-saction {
   display: block;
   background-color: azure;
-  width: 100%;
+  width: 400px 100%;
   margin: 100px auto;
   padding: 20px;
   text-align: center;
@@ -162,7 +163,7 @@ align-items: center;
 
 .login-form input {
   display: block;
-  width: 100%;
+  width: 400px;
   padding: 8px;
   margin-top: 10px;
   border-radius: 5px;
@@ -194,4 +195,3 @@ align-items: center;
     padding: 1rem;
     margin-top: 2rem;
   }
-  
